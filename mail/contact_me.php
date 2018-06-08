@@ -12,7 +12,7 @@ if(empty($_POST['name'])  		||
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
-$conn =mysqli_connect("localhost","id3242175_guha_5599","guha0804","id3242175_guha");
+$conn =mysqli_connect("localhost","","","");
 $q="insert into testing values('$name','$email_address', '$message')";
 $sql=mysqli_query($conn,$q);
 if($sql)

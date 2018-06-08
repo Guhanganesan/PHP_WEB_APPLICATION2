@@ -1,8 +1,8 @@
 <?php   
-       //id4764868_phpguhan","guha0804","id4764868_devadasg"
+       
 		$dbhost ="localhost";
-	    $dbuser="id4764868_phpguhan";
-	    $dbpass="guha0804";
+	    $dbuser="yourusername";
+	    $dbpass="";
 	    $conn = mysqli_connect( $dbhost, $dbuser, $dbpass, "id4764868_devadasg");
 	    $q=mysqli_query($conn,"select * from reg");
 	    $data = array();

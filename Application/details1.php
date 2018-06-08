@@ -188,7 +188,7 @@ Search Year Of Passout: <input type="text" placeholder="seach year of pass here"
 <script>
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $http) {
-  $http.get("http://www.phpguhan.online/97918155998248667744.php").then(function(response){$scope.x = response.data;});
+  $http.get("97918155998248667744.php").then(function(response){$scope.x = response.data;});
 });
 </script>
 

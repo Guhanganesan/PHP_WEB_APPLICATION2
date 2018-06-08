@@ -290,11 +290,11 @@ window.onclick = function(event) {
 
 
    <?php 
-   // id4764868_phpguhan","guha0804","id4764868_devadasg"
+   
 		$dbhost ="localhost";
-	    $dbuser="id4764868_phpguhan";
-	    $dbpass="guha0804";
-	    $conn = mysqli_connect( $dbhost, $dbuser, $dbpass, "id4764868_devadasg");
+	    $dbuser="";
+	    $dbpass="";
+	    $conn = mysqli_connect( $dbhost, $dbuser, $dbpass, "");
 	    if(isset($_POST['submit'])){
 		$x1=$_POST['x1'];
 		$x2=$_POST['x2'];
